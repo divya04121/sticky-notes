@@ -3,7 +3,7 @@ import dateFormat from "dateformat";
 import AddIcon from '@material-ui/icons/Add';
 
  function CreateNote(props){
-   const date = new Date();
+   
    const d = dateFormat("mmmm dS,yyyy");
    const [note, setNote] = useState({
    title: "",
